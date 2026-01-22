@@ -5,15 +5,11 @@ This program allows you to create Box Plots for California Housing dataset.
 
 
 ## About dataset: ##
-From the information online:
 California Housing dataset contains the median house value as target variable and the following input variables (features): average income, housing average age, average rooms, average bedrooms, population, average occupation, latitude, and longitude.
 
 
 ## How to run run this script: ##
-install the requirement txt file first:
-pip install -r requirements.txt
-then run the script with following code:
-python src/boxplot.py
+Install the requirement txt file first:`pip install -r requirements.txt`, then run the script with following code:`python src/boxplot.py`
 
 ## Option: ##
 When the script runs, it will list the column header for this dataset, 
