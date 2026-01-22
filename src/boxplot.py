@@ -101,6 +101,10 @@ while choice !=False:
               plt.title(f"Box Plot for column:{df.columns[choice]}")
               plt.show()
               print("\n")
-              continue
+              if choice==0:
+                choice=True
+                continue
+              else:
+                 continue
 
 
